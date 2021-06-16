@@ -104,10 +104,10 @@ Baby.prototype.play = function() {
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. When used in the global scope, `this` refers to a global super-object. This is the window object in browsers, and the console object in node.
+    2. When used in a function that is being invoked from an object with dot notation, `obj.method()`, `this` refers to `obj`.
+    3. When used in a constructor, `this` refers to the object being constructed.
+    4. When used inside a function called with `.call` or `.apply`, `this` is bound to the object that's passed in. 
   */
   
   
